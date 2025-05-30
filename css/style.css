@@ -1,20 +1,44 @@
 *{
     margin: 0;
     padding: 0;
-    font: 13px arial;
+    box-sizing: border-box;
+    font: 16px arial;
 }
 
 header{
     display:flex;
-    outline: 1px solid #000;
+    align-items:center;
+    height:50px;
+    padding:0 30px;
+    gap:40px;
+}
+
+#logo{
+    color:#006EFF;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.menu{
+    display:flex;
+    gap:5px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#000;
 }
 
 main{
     padding:10px;
 }
 
+section{
+    max-width:1450px;
+}
+
 .banner{
-    height:150px;
+    height:250px;
     background:rgb(0, 110, 255);
     border-radius:12px;
 }
