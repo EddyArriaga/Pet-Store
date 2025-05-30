@@ -14,6 +14,11 @@ header{
     gap:50px;
 }
 
+.container{
+    max-width:1500px;
+    margin:auto;
+}
+
 #logo{
     font-size:20px;
     font-weight:bold;
@@ -21,6 +26,7 @@ header{
 }
 
 #menu{
+    margin:auto;
     display:flex;
     gap:20px;
 }
@@ -31,4 +37,13 @@ header{
 
 #menu a:hover{
     font-weight:bold;
+}
+
+section{
+    background:red;
+}
+
+.banner{
+    height:500px;
+    background:blue;
 }
