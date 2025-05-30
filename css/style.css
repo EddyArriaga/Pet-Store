@@ -3,42 +3,32 @@
     padding: 0;
     box-sizing: border-box;
     font: 16px arial;
+    text-decoration:none;
 }
 
 header{
-    display:flex;
-    align-items:center;
-    height:50px;
-    padding:0 30px;
-    gap:40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    gap:50px;
 }
 
 #logo{
-    color:#006EFF;
-    font-weight:bold;
     font-size:20px;
+    font-weight:bold;
+    color:#0083ff;
 }
 
-.menu{
+#menu{
     display:flex;
-    gap:5px;
+    gap:20px;
 }
 
-.menu a{
-    text-decoration:none;
-    color:#000;
+#menu a{
+    color:#000000;
 }
 
-main{
-    padding:10px;
-}
-
-section{
-    max-width:1450px;
-}
-
-.banner{
-    height:250px;
-    background:rgb(0, 110, 255);
-    border-radius:12px;
+#menu a:hover{
+    font-weight:bold;
 }
