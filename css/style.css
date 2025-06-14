@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 16px arial;
+    text-decoration:none;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    gap:50px;
+}
+
+.container{
+    max-width:1500px;
+    margin:auto;
+}
+
+#logo{
+    font-size:20px;
+    font-weight:bold;
+    color:#0083ff;
+}
+
+#menu{
+    margin:auto;
+    display:flex;
+    gap:20px;
+}
+
+#menu a{
+    color:#000000;
+}
+
+#menu a:hover{
+    font-weight:bold;
+}
+
+section{
+    background:red;
+}
+
+.banner{
+    height:500px;
+    background:blue;
+}
